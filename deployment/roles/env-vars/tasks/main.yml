@@ -1,8 +1,0 @@
----
-- name: Set environment variables
-  become: yes
-  lineinfile:
-    dest: /etc/environment
-    regexp: "{{ item.regexp }}"
-    line: "{{ item.line }}"
-  with_items: "{{ env_variables }}"
