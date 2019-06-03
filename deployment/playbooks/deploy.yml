@@ -3,9 +3,9 @@
 - name: deploy | prerequisites
   hosts: appservers
   become: yes
-  become_user: echotrap
+  become_user: stubgun
   vars:
-    site_dir: /home/echotrap/www/echotrap.com
+    site_dir: /home/stubgun/www/echotrap.com
   tasks:
     - name: create site folder (if needed)
       file:
