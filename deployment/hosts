@@ -1,2 +1,2 @@
 [appservers]
-do-stubgun
+do-monolith-deb10
