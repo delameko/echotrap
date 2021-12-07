@@ -1,2 +1,2 @@
-[appservers]
-do-monolith-deb10
+[all]
+do-monolith
